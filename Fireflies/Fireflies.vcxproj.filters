@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Classes">
+      <UniqueIdentifier>{216616f6-9579-45da-b33b-3a369a919411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RT3D">
+      <UniqueIdentifier>{a432aea5-260a-4d05-bbd8-0d39df911d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{17b57fcb-17c7-4d31-9c94-4e08421fd4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sounds">
+      <UniqueIdentifier>{e2e607b5-9084-4614-ae74-172f1d7c6d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{e8521bb1-4f67-4628-a71e-f0d72857ca76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{09e735f8-6734-4b6a-983b-929d877d686b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RT3D">
+      <UniqueIdentifier>{e5067b8f-defb-4bf0-bb1f-c2775ff9a2e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="particleArray.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="rt3dObjLoader.h">
+      <Filter>Header Files\RT3D</Filter>
+    </ClInclude>
+    <ClInclude Include="rt3d.h">
+      <Filter>Header Files\RT3D</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.h">
+      <Filter>Header Files\RT3D</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="FireFlyManager.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="BloomManager.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMappingManager.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="spotLightManager.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="particleArray.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="rt3d.cpp">
+      <Filter>Source Files\RT3D</Filter>
+    </ClCompile>
+    <ClCompile Include="rt3dObjLoader.cpp">
+      <Filter>Source Files\RT3D</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="FireFlyManager.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BloomManager.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMappingManager.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="spotLightManager.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bumpMapping.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="bumpMapping.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="particle.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="particle.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="phong-tex.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="phong-tex.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="textured.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="textured.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="bloomFrag.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="bloomVert.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="forest_back.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="forest_bot.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="forest_front.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="forest_left.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="forest_right.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="forest_top.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="metal-normalmap.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="smoke1.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="smoke2.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="tree_texture.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="tree_texture-normalmapping.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="firefly_sound.mp3">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="firefly_sound.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="forest_ambience.mp3">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
